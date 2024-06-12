@@ -1,0 +1,13 @@
+name: Test
+on:
+    pull_request: 
+    workflow_dispatch: 
+jobs:
+    build:
+        name: Build test
+        runs-on: ubuntu-latest
+        steps:
+            - name: Display info
+              run: echo "Some information"
+            - name: Some more info
+              run: echo "Some more info"
